@@ -4,8 +4,8 @@
   "description": "Example of E2E testing using Cypress with Cucumber",
   "main": "index.js",
   "scripts": {
-    "cypress:runner": "cypress open",
-    "cypress:execution": "cypress run"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",

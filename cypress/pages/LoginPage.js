@@ -1,4 +1,4 @@
-class LoginPage {
+export class LoginPage {
   elements = {
     usernameInput: () => cy.get("#user-name"),
     passwordInput: () => cy.get("#password"),
@@ -18,5 +18,3 @@ class LoginPage {
     this.elements.loginBtn().click();
   }
 }
-
-export default LoginPage;
