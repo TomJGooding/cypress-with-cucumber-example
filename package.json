@@ -1,0 +1,19 @@
+{
+  "name": "cypress-with-cucumber-example",
+  "version": "1.0.0",
+  "description": "Example of E2E testing using Cypress with Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress:execution"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomJGooding/cypress-with-cucumber-example.git"
+  },
+  "author": "TomJGooding",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/TomJGooding/cypress-with-cucumber-example/issues"
+  },
+  "homepage": "https://github.com/TomJGooding/cypress-with-cucumber-example#readme"
+}
