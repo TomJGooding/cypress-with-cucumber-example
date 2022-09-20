@@ -14,3 +14,13 @@ Feature: Login Page
     And The user enters the password "secret_sauce"
     And The user clicks on the login button
     Then The error message "Epic sadface: Sorry, this user has been locked out." is displayed
+  Scenario: The user tries to log in with a username that does not exist
+    When The user enters the username "nonexistant_user"
+    And The user enters the password "secret_sauce"
+    And The user clicks on the login button
+    Then The error message "Epic sadface: Username and password do not match any user in this service" is displayed
+  Scenario: The user enters the incorrect password
+    When The user enters the username "standard_user"
+    And The user enters the password "wrong_password"
+    And The user clicks on the login button
+    Then The error message "Epic sadface: Username and password do not match any user in this service" is displayed

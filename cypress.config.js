@@ -23,6 +23,7 @@ module.exports = defineConfig({
     specPattern: "cypress/e2e/features/*.feature",
     supportFile: false,
     baseUrl: "https://www.saucedemo.com",
+    chromeWebSecurity: false,
     setupNodeEvents,
   },
 });
